@@ -4,12 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WebStudio</title>
+    <title>Portfolio</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
@@ -61,331 +61,154 @@
     </header>
 
     <main>
-      <!-- <MAIN> (HEADER)  -->
-      <section class="background-header">
-        <div class="container">
-          <h1 class="main-header">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-          <button class="order-btn" type="button">Zamów usługę</button>
-        </div>
-      </section>
+      <!-- FILTERS -->
+      <section class="portfolio section">
+        <div class="portfolio container">
+          <ul class="filters-list">
+            <li class="filters-list-item">
+              <button class="filter-btn active-btn" type="button">
+                Wszystkie
+              </button>
+            </li>
+            <li class="filters-list-item">
+              <button class="filter-btn" type="button">Strony</button>
+            </li>
+            <li class="filters-list-item">
+              <button class="filter-btn" type="button">Aplikacje</button>
+            </li>
+            <li class="filters-list-item">
+              <button class="filter-btn" type="button">Dizajn</button>
+            </li>
+            <li class="filters-list-item">
+              <button class="filter-btn" type="button">Marketing</button>
+            </li>
+          </ul>
 
-      <!-- WHY US -->
-      <section class="why-us section">
-        <div class="container">
-          <ul class="article-list">
-            <li class="article-list-item">
-              <svg class="article-list-icon">
-                <use href="./images/icons.svg#icon-antenna"></use>
-              </svg>
-              <h3 class="article-header">LOREM IPSUM</h3>
-              <p class="article-list-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-                arcu sem. Sed non sodales dui. Interdum et malesuada
-              </p>
+          <!-- EXAMPLES -->
+
+          <ul class="examples-list">
+            <li class="examples-list-item">
+              <img
+                class="examples-list-photo"
+                src="./images/portfolio/portfolio-technocrack.jpg"
+                alt="strona internetowa z trzema postaciami"
+                width="370"
+                height="294"
+              />
+              <div class="wrapper">
+                <p class="examples-list-title">Technocrack</p>
+                <p class="examples-list-category">Strona internetowa</p>
+              </div>
             </li>
-            <li class="article-list-item">
-              <svg class="article-list-icon">
-                <use href="./images/icons.svg#icon-clock"></use>
-              </svg>
-              <h3 class="article-header">LOREM IPSUM</h3>
-              <p class="article-list-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-                arcu sem. Sed non sodales dui. Interdum et malesuada
-              </p>
+            <li class="examples-list-item">
+              <img
+                class="examples-list-photo"
+                src="./images/portfolio/portfolio-grafika.jpg"
+                alt="dwóch koszykarzy w powietrzu z piłką"
+                width="370"
+                height="294"
+              />
+              <div class="wrapper">
+                <p class="examples-list-title">
+                  Grafika New Orlean vs Golden Star
+                </p>
+                <p class="examples-list-category">Dizajn</p>
+              </div>
             </li>
-            <li class="article-list-item">
-              <svg class="article-list-icon">
-                <use href="./images/icons.svg#icon-diagram"></use>
-              </svg>
-              <h3 class="article-header">LOREM IPSUM</h3>
-              <p class="article-list-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-                arcu sem. Sed non sodales dui. Interdum et malesuada
-              </p>
+            <li class="examples-list-item">
+              <img
+                class="examples-list-photo"
+                src="./images/portfolio/portfolio-restauracja.jpg"
+                alt="szara ryba z logo restauracji"
+                width="370"
+                height="294"
+              />
+              <div class="wrapper">
+                <p class="examples-list-title">Restauracja Seafood</p>
+                <p class="examples-list-category">Aplikacja</p>
+              </div>
             </li>
-            <li class="article-list-item">
-              <svg class="article-list-icon">
-                <use href="./images/icons.svg#icon-astronaut"></use>
-              </svg>
-              <h3 class="article-header">LOREM IPSUM</h3>
-              <p class="article-list-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-                arcu sem. Sed non sodales dui. Interdum et malesuada
-              </p>
+            <li class="examples-list-item">
+              <img
+                class="examples-list-photo"
+                src="./images/portfolio/portfolio-prime.jpg"
+                alt="czarne słuchawki"
+                width="370"
+                height="294"
+              />
+              <div class="wrapper"> 
+                <p class="examples-list-title">Projekt Prime</p>
+                <p class="examples-list-category">Marketing</p>
+              </div>
+            </li>
+            <li class="examples-list-item">
+              <img
+                class="examples-list-photo"
+                src="./images/portfolio/portfolio-boxes.jpg"
+                alt="dwa prostokątne pudełka"
+                width="370"
+                height="294"
+              />
+              <div class="wrapper">
+                <p class="examples-list-title">Projekt Boxes</p>
+                <p class="examples-list-category">Aplikacja</p>
+              </div>
+            </li>
+            <li class="examples-list-item">
+              <img
+                class="examples-list-photo"
+                src="./images/portfolio/portfolio-inspiration.jpg"
+                alt="monitor z szarą mapą świata na czarnym tle"
+                width="370"
+                height="294"
+              />
+              <div class="wrapper">
+                <p class="examples-list-title">Inspiration has no Borders</p>
+                <p class="examples-list-category">Strona internetowa</p>
+              </div>
+            </li>
+            <li class="examples-list-item">
+              <img
+                class="examples-list-photo"
+                src="./images/portfolio/portfolio-magazyn.jpg"
+                alt="książka z artykułami"
+                width="370"
+                height="294"
+              />
+              <div class="wrapper">
+                <p class="examples-list-title">Magazyn Limited Edition</p>
+                <p class="examples-list-category">Dizajn</p>
+              </div>
+            </li>
+            <li class="examples-list-item">
+              <img
+                class="examples-list-photo"
+                src="./images/portfolio/portfolio-lab.jpg"
+                alt="biała etykieta ze sznurkiem"
+                width="370"
+                height="294"
+              />
+              <div class="wrapper">
+                <p class="examples-list-title">Projekt LAB</p>
+                <p class="examples-list-category">Marketing</p>
+              </div>
+            </li>
+            <li class="examples-list-item">
+              <img
+                class="examples-list-photo"
+                src="./images/portfolio/portfolio-growing.jpg"
+                alt="laptop pokazujązy fragment mężczyzny w garniturze"
+                width="370"
+                height="294"
+              />
+              <div class="wrapper">
+                <p class="examples-list-title">Growing Business</p>
+                <p class="examples-list-category">Aplikacja</p>
+              </div>
             </li>
           </ul>
         </div>
       </section>
-
-      <!-- OFFER -->
-      <section class="offer section">
-        <div class="container">
-          <h2 class="section-header">Czym się zajmujemy</h2>
-          <ul class="offer-list">
-            <li class="offer-list-item">
-              <img
-                class="offer-list-photo"
-                src="images/czym_sie_zajmujemy/czym_sie_zajmujemy(1).jpg"
-                alt="podpowiadamy rozwiązania"
-                width="370"
-                height="294"
-              />
-            </li>
-            <li class="offer-list-item">
-              <img
-                class="offer-list-photo"
-                src="images/czym_sie_zajmujemy/czym_sie_zajmujemy(2).jpg"
-                alt="dbamy o responsywność"
-                width="370"
-                height="294"
-              />
-            </li>
-            <li class="offer-list-item">
-              <img
-                class="offer-list-photo"
-                src="images/czym_sie_zajmujemy/czym_sie_zajmujemy(3).jpg"
-                alt="dobieramy szatę graficzną"
-                width="370"
-                height="294"
-              />
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <!-- TEAM -->
-      <section class="team section">
-        <div class="container">
-          <h2 class="section-header">Nasz zespół</h2>
-          <ul class="team-list">
-            <li class="team-list-item">
-              <img
-                class="team-list-photo"
-                src="images/nasz_zespol/zespol(1).jpg"
-                alt="John Doe - Product Designer"
-                width="270"
-                height="260"
-              />
-              <h4 class="team-list-name">John Doe</h4>
-              <p class="team-list-position">Product Designer</p>
-
-              <!-- social-icons -->
-              <ul class="social-list">
-              <li class="social-list-item">
-                <a class="social-list-link" href="#">
-                  <svg class="social-icon">
-                    <use href="./images/icons.svg#icon-instagram"></use>
-                  </svg>
-                </a>
-              </li>
-               <li class="social-list-item">
-                <a class="social-list-link" href="#">
-                  <svg class="social-icon">
-                    <use href="./images/icons.svg#icon-twitter"></use>
-                  </svg>
-                </a>
-              </li>
-               <li class="social-list-item">
-                <a class="social-list-link" href="#">
-                  <svg class="social-icon">
-                    <use href="./images/icons.svg#icon-facebook"></use>
-                  </svg>
-                </a>
-              </li>
-               <li class="social-list-item">
-                <a class="social-list-link" href="#">
-                  <svg class="social-icon">
-                    <use href="./images/icons.svg#icon-linkedin"></use>
-                  </svg>
-                </a>
-              </li>
-            </ul>
-            <!-- END social-icons -->
-            </li>
-            <li class="team-list-item">
-              <img
-                class="team-list-photo"
-                src="images/nasz_zespol/zespol(2).jpg"
-                alt="John Doe - Frontend Developer"
-                width="270"
-                height="260"
-              />
-              <h4 class="team-list-name">John Doe</h4>
-              <p class="team-list-position">Frontend Developer</p>
-              <!-- social-icons -->
-              <ul class="social-list">
-              <li class="social-list-item">
-                <a class="social-list-link" href="#">
-                  <svg class="social-icon">
-                    <use href="./images/icons.svg#icon-instagram"></use>
-                  </svg>
-                </a>
-              </li>
-               <li class="social-list-item">
-                <a class="social-list-link" href="#">
-                  <svg class="social-icon">
-                    <use href="./images/icons.svg#icon-twitter"></use>
-                  </svg>
-                </a>
-              </li>
-               <li class="social-list-item">
-                <a class="social-list-link" href="#">
-                  <svg class="social-icon">
-                    <use href="./images/icons.svg#icon-facebook"></use>
-                  </svg>
-                </a>
-              </li>
-               <li class="social-list-item">
-                <a class="social-list-link" href="#">
-                  <svg class="social-icon">
-                    <use href="./images/icons.svg#icon-linkedin"></use>
-                  </svg>
-                </a>
-              </li>
-            </ul>
-            <!-- END social-icons -->
-            </li>
-            <li class="team-list-item">
-              <img
-                class="team-list-photo"
-                src="images/nasz_zespol/zespol(3).jpg"
-                alt="John Doe - Marketing"
-                width="270"
-                height="260"
-              />
-              <h4 class="team-list-name">John Doe</h4>
-              <p class="team-list-position">Marketing</p>
-              <!-- social-icons -->
-              <ul class="social-list">
-              <li class="social-list-item">
-                <a class="social-list-link" href="#">
-                  <svg class="social-icon">
-                    <use href="./images/icons.svg#icon-instagram"></use>
-                  </svg>
-                </a>
-              </li>
-               <li class="social-list-item">
-                <a class="social-list-link" href="#">
-                  <svg class="social-icon">
-                    <use href="./images/icons.svg#icon-twitter"></use>
-                  </svg>
-                </a>
-              </li>
-               <li class="social-list-item">
-                <a class="social-list-link" href="#">
-                  <svg class="social-icon">
-                    <use href="./images/icons.svg#icon-facebook"></use>
-                  </svg>
-                </a>
-              </li>
-               <li class="social-list-item">
-                <a class="social-list-link" href="#">
-                  <svg class="social-icon">
-                    <use href="./images/icons.svg#icon-linkedin"></use>
-                  </svg>
-                </a>
-              </li>
-            </ul>
-            <!-- END social-icons -->
-            </li>
-            <li class="team-list-item">
-              <img
-                class="team-list-photo"
-                src="images/nasz_zespol/zespol(4).jpg"
-                alt="John Doe - UI Designer"
-                width="270"
-                height="260"
-              />
-              <h4 class="team-list-name">John Doe</h4>
-              <p class="team-list-position">UI Designer</p>
-             <!-- social-icons -->
-              <ul class="social-list">
-              <li class="social-list-item">
-                <a class="social-list-link" href="#">
-                  <svg class="social-icon">
-                    <use href="./images/icons.svg#icon-instagram"></use>
-                  </svg>
-                </a>
-              </li>
-               <li class="social-list-item">
-                <a class="social-list-link" href="#">
-                  <svg class="social-icon">
-                    <use href="./images/icons.svg#icon-twitter"></use>
-                  </svg>
-                </a>
-              </li>
-               <li class="social-list-item">
-                <a class="social-list-link" href="#">
-                  <svg class="social-icon">
-                    <use href="./images/icons.svg#icon-facebook"></use>
-                  </svg>
-                </a>
-              </li>
-               <li class="social-list-item">
-                <a class="social-list-link" href="#">
-                  <svg class="social-icon">
-                    <use href="./images/icons.svg#icon-linkedin"></use>
-                  </svg>
-                </a>
-              </li>
-            </ul>
-            <!-- END social-icons -->
-            </li>
-          </ul>
-        </div>
-      </section>
-
-            <!-- CUSTOMERS -->
-      <section class="customers section">      
-        <div class="container">
-          <h2 class="section-header">Nasi klienci</h2>
-          <ul class="customers-list">
-            <li class="customers-list-item">
-              <a href="" class="customers-list-link">
-                <svg class="customers-icon">
-                  <use href="./images/icons.svg#icon-Logo1ya"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="customers-list-item">
-              <a href="" class="customers-list-link">
-                <svg class="customers-icon">
-                  <use href="./images/icons.svg#icon-Logo2book"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="customers-list-item">
-              <a href="" class="customers-list-link">
-                <svg class="customers-icon">
-                  <use href="./images/icons.svg#icon-Logo3company"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="customers-list-item">
-              <a href="" class="customers-list-link">
-                <svg class="customers-icon">
-                  <use href="./images/icons.svg#icon-Logo4foster"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="customers-list-item">
-              <a href="" class="customers-list-link">
-                <svg class="customers-icon">
-                  <use href="./images/icons.svg#icon-Logo5brand"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="customers-list-item">
-              <a href="" class="customers-list-link">
-                <svg class="customers-icon">
-                  <use href="./images/icons.svg#icon-Logo6box"></use>
-                </svg>
-              </a>
-            </li>
-          </ul> 
-        </div>           
-      </section>
-
     </main>
 
     <!-- CONTACT -->
