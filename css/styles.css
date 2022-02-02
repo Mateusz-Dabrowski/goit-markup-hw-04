@@ -92,6 +92,8 @@ img {
 .header .container {
   display: flex;
   justify-content: space-between;
+  /* margin-right: 12px; */
+  /* height: 80px; */
   border-bottom: 1px solid #ECECEC;
 }
 
@@ -161,8 +163,10 @@ img {
    rgba(47, 48, 58, 0.4),
    rgba(47, 48, 58, 0.4)), 
     url("../images/header/header.jpg");
+  /* background-image: url("../images/header/header.jpg"); */
   background-size: cover;
   background-repeat: no-repeat;
+  /* background-color: linear-gradient(rgba(47, 48, 58, 0.4)); */
  
 }
 
@@ -170,6 +174,11 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  
+    
+/*   
+  width: 1600px;
+  border: 1px solid #000; */
 }
 
 .main-header {
@@ -229,9 +238,13 @@ img {
 
 .why-us .container {
   display: flex;
+  /* justify-content: center; */
 }
 .article-list {
   display: flex;
+  /* justify-content: space-between; */
+  /* width: 1170px; */
+  /* margin-top: 94px; */
 }
 
 
@@ -298,6 +311,7 @@ img {
   border-radius: 50%;
   width: 44px;
   height: 44px;
+  /* background-color: #000; */
   text-decoration: none;
   color: #AFB1B8;
 }
@@ -313,6 +327,8 @@ img {
   width: 270px;
   display: flex;
   flex-direction: column;
+  /* justify-content: space-between; */
+  /* margin-bottom: 94px; */
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
@@ -321,6 +337,8 @@ img {
   margin-right: 30px;
 }
 
+
+/* .......................... */
 .team.section {
   background-color: var(--background-color-gray);
 }
@@ -328,10 +346,15 @@ img {
 .team .container {  
   display: flex;
   flex-direction: column;
+  /* justify-content: space-between; */
+    /* height: 648px; */
 }
 
 .team-list {
   display: flex;
+  /* width: 1170px;   */
+  /* justify-content: space-between; */
+  /* align-items: center; */
 }
 
 .team-list-name {
@@ -431,6 +454,11 @@ img {
 .join-us .social-list {
   margin-top: 20px;
 }
+
+
+/* .join-us {
+  align-self: flex-start;
+} */
 
 .contact {
   background-color: var(--background-color-dark);
@@ -559,5 +587,9 @@ color: var(--gray-color);
 .examples-list-item:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
+
+/* .examples-list-photo {
+  bc:var(--background-color-dark)
+} */
 
 /* ======= END EXAMPLES ======= */
