@@ -576,6 +576,7 @@ color: var(--gray-color);
 
 .examples-list-item {
     margin-bottom: 30px;
+    cursor: pointer;
 
 }
 
@@ -588,8 +589,6 @@ color: var(--gray-color);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-/* .examples-list-photo {
-  bc:var(--background-color-dark)
-} */
+
 
 /* ======= END EXAMPLES ======= */
