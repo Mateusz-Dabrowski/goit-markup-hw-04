@@ -89,13 +89,13 @@ img {
   align-items: center;
 }
 
-.header .container {
+.header-item .container {
   display: flex;
   justify-content: space-between;
   /*border-bottom: 1px solid #ECECEC;*/
 }
 
-.header-section {
+.header {
   border-bottom: 1px solid #ECECEC;
   width: 100%;
 }
